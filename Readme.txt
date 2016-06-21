@@ -1,0 +1,2 @@
+- de node modules copy en package.json copy zijn voor grunt
+- de nieuwe zijn voor gulp
