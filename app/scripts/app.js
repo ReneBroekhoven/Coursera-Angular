@@ -166,7 +166,7 @@ angular.module('confusionApp', [])
                 $scope.dish.comments.push($scope.comment);
                 
                 //Step 4: reset your form to pristine
-                $scope.commentForm.$setPristine;  // commentForm wordt dus automatisch doorgegeven !
+                $scope.commentForm.$setPristine();  // commentForm wordt dus automatisch doorgegeven !
                 
                 //Step 5: reset your JavaScript object that holds your comment
                 $scope.comment = {author:"", rating:5, comment:""};
@@ -174,3 +174,48 @@ angular.module('confusionApp', [])
         }])
 
 ;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
